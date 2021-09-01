@@ -1,0 +1,288 @@
+:root {
+    --display: inline-block;
+    --overflow: hidden;
+    --padding: 10px;
+    --height: 380px;
+    --width: 380px;
+    --outline: none;
+    --row-gap: 40px;
+    --color: yellow;
+    --border-radius: 50%;
+    --animation: spin 8s infinite;
+    --background-size: contain;
+    --background-repeat: no-repeat;
+    --margin: 10px;
+}
+
+.row {
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: linear-gradient(to top, rgb(7, 107, 7), rgb(54, 150, 54),rgba(245, 245, 245, 0.733), rgb(41, 206, 252));
+    padding-top: 40px;
+    display: inline-block;
+}
+
+#sun {
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    margin-left: 45%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 30px 30px gold;
+}
+
+#farmHouse {
+    height: 380px;
+    width: 350px;
+    position: absolute;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+#roof {
+    height: 250px;
+    width: 193px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid crimson;
+    /* background-color: crimson; */
+    margin-top: -200px;
+    margin-left: 10px;
+}
+
+#house {
+    height: 210px;
+    width: 250px;
+    border: 1px solid beige;
+    margin-left: 30px;
+    display: flex;
+    box-shadow: 2px 20px 20px rgba(0, 0, 0, 0.637);
+}
+
+#bricks1, #bricks2 {
+    height: 210px;
+    width: 85px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: beige;
+}
+
+#door {
+    height: 210px;
+    width: 80px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: saddlebrown;
+}
+
+#door #knob {
+    height: 30px;
+    width: 15px;
+    margin-left: auto;
+    background-color: silver;
+    margin-top: 90%;
+}
+
+#mainBricks {
+    height: 30px;
+    width: 38px;
+    display: inline-block;
+    background-color: brown;
+    overflow: hidden;
+    margin: 1px;
+}
+
+#animals {
+    height: 400px;
+    width: 350px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+#myAnimal1, #myAnimal2, #myAnimal3, #myAnimal4 {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 120px;
+    margin-bottom: -100px;
+}
+
+#myAnimal1 {
+    background-image: url("https://i.pinimg.com/originals/00/10/e2/0010e299dfd3d4a79511b7c8c1f088ff.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#myAnimal2 {
+    background-image: url("http://www.7generationgames.com/making_camp_lakota/images/horse/horse-drinking.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#myAnimal3 {
+    background-image: url("http://www.7generationgames.com/making_camp_lakota/images/horse/horse-drinking.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1);
+}
+
+#myAnimal4 {
+    background-image: url("https://i.pinimg.com/originals/00/10/e2/0010e299dfd3d4a79511b7c8c1f088ff.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1);
+}
+
+#turbines {
+    height: 400px;
+    width: 550px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#turbine1 {
+    height: 200px;
+    width: 100px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#blade1 {
+    height: 20px;
+    width: 80px;
+    background-color: whitesmoke;
+    display: var(--display);
+    position: relative;
+    border-radius: 50%;
+    animation: var(--animation);
+    margin-top: 50%;
+    margin-left: 10%;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#blade2{
+    height: 80px;
+    width: 20px;
+    background-color: whitesmoke;
+    display: var(--display);
+    position: relative;
+    border-radius: 50%;
+    margin-top: -40%;
+    margin-left: 35%;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#pole1{
+    height: 120px;
+    width: 12px;
+    background-color: saddlebrown;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-bottom: 10px solid gray;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#turbine2 {
+    height: 250px;
+    width: 150px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+#blade3 {
+    height: 20px;
+    width: 120px;
+    background-color: whitesmoke;
+    display: var(--display);
+    position: relative;
+    border-radius: 50%;
+    animation: var(--animation);
+    margin-top: 50%;
+    margin-left: 10%;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#blade4{
+    height: 120px;
+    width: 20px;
+    background-color: whitesmoke;
+    display: var(--display);
+    position: relative;
+    border-radius: 50%;
+    margin-top: -40%;
+    margin-left: 40%;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#pole2{
+    height: 180px;
+    width: 12px;
+    background-color: saddlebrown;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: 55px;
+    border-bottom: 10px solid gray;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#turbine3 {
+    height: 350px;
+    width: 200px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#blade5 {
+    height: 20px;
+    width: 160px;
+    background-color: whitesmoke;
+    display: var(--display);
+    position: relative;
+    border-radius: 50%;
+    animation: var(--animation);
+    margin-top: 50%;
+    margin-left: 13%;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#blade6{
+    height: 160px;
+    width: 20px;
+    background-color: whitesmoke;
+    display: var(--display);
+    position: relative;
+    border-radius: 50%;
+    margin-top: -40%;
+    margin-left: 40%;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+#pole3{
+    height: 280px;
+    width: 12px;
+    background-color: saddlebrown;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 95px;
+    margin-top: 65px;
+    border-bottom: 10px solid gray;
+    box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
